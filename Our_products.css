@@ -1,0 +1,28 @@
+.font-rale:link {
+    text-decoration: none;
+}
+
+.font-rale:hover {
+    text-decoration: underline;
+}
+
+.link-dark:link {
+    text-decoration: none;
+}
+
+.link-dark:hover {
+    text-decoration: underline;
+}
+
+.img_box {
+    padding: 10px;
+}
+
+.products {
+    height: 200px;
+    width: 180px;
+}
+
+.description {
+    text-align: center;
+}

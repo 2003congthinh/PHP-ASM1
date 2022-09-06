@@ -1,0 +1,29 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  /* The image used */
+  background-image: url("picts/e-commerce-orange-background_23-2147650065.webp");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Position text in the middle of the page/image */
+.block {
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
